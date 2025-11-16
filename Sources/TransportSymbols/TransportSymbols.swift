@@ -1,6 +1,6 @@
 import SwiftUI
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct TransportSymbolView<Content: View>: View {
     let backgroundColor: Color
     let content: Content
@@ -25,14 +25,14 @@ public struct TransportSymbolView<Content: View>: View {
 
 // MARK: - Typografie-Helfer
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 private enum TSFont {
     static let big  = Font.system(size: 20, weight: .heavy, design: .rounded)
     static let mid  = Font.system(size: 15, weight: .heavy, design: .rounded)
 }
 
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct SbahnSymbolView: View {
     public init() {}
     public var body: some View {
@@ -43,7 +43,7 @@ public struct SbahnSymbolView: View {
 }
 
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct UbahnSymbolView: View {
     public init() {}
     public var body: some View {
@@ -54,7 +54,7 @@ public struct UbahnSymbolView: View {
 }
 
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct TramSymbolView: View {
     public init() {}
     public var body: some View {
@@ -65,7 +65,7 @@ public struct TramSymbolView: View {
 }
 
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct BusSymbolView: View {
     public init() {}
     public var body: some View {
@@ -76,7 +76,7 @@ public struct BusSymbolView: View {
 }
 
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct FerrySymbolView: View {
     public init() {}
     public var body: some View {
@@ -86,7 +86,7 @@ public struct FerrySymbolView: View {
     }
 }
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct LongDistanceSymbolView: View {
     public init() {}
     public var body: some View {
@@ -96,7 +96,7 @@ public struct LongDistanceSymbolView: View {
     }
 }
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct RegionalSymbolView: View {
     public init() {}
     public var body: some View {
@@ -106,7 +106,7 @@ public struct RegionalSymbolView: View {
     }
 }
 
-@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 14, *)
+@available(iOS 16, macCatalyst 12, macOS 12, watchOS 7, tvOS 15, *)
 public struct WalkingSymbolView: View {
     public init() {}
     public var body: some View {
